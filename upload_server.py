@@ -23,7 +23,7 @@ def uploader_file():
         image.name = image.filename
         image = BufferedReader(image)
         output_path = os.path.join(gettempdir(), 'r-n-c-b-testing-' + str(time.time_ns()) )
-        print("About to write to " + output_path)
+        print("About to write " + image.name + " to " + output_path)
         with open(output_path, 'wb') as output_file:
             output_file.write(image.read())
 
