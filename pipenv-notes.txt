@@ -1,0 +1,3 @@
+Due to some weirdness with the pipenv install this is the path to pipenv.
+
+/home/rshea/.local/bin/pipenv
